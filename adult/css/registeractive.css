@@ -146,8 +146,8 @@ body{
 	}
 	.lgb_content{
 		position: absolute;
-		top: 125px;
-		left: 22%;
+		top: 72px;
+		left: 23%;
 		/*background-color: red;*/
 	}
 
@@ -213,7 +213,7 @@ body{
 	}
 	.z01_title{
 		font-size: 30px;
-		color: #ffae00;
+		color: #d456bf;
 		font-weight: bold;
 		padding: 0 0 20px;
 	}
@@ -231,9 +231,9 @@ body{
 		transition: 0.5s;
 		background: url("../images/r_logo.png") center no-repeat;
 	}
-	.home:hover{
+	/* .home:hover{
 		background: url("../images/r_logo_hover.png") center no-repeat;
-	}
+	} */
 	/*第二區*/
 	.zone02_center img{
 		display: none;
@@ -312,7 +312,7 @@ body{
 	}
 	.z03_title{
 		font-size: 30px;
-		color: #bf0000;
+		color: #d456bf;
 		font-weight: bold;
 		text-align: center;
 		padding: 0 0 20px;
@@ -468,8 +468,8 @@ body{
 	}
 	.lgb_content{
 		position: absolute;
-		top: 125px;
-		left: 22%;
+		top: 72px;
+		left: 23%;
 		/*background-color: red;*/
 	}
 	.lgb_content input{
@@ -544,7 +544,7 @@ body{
 	}
 	.z01_title{
 		font-size: 30px;
-		color: #ffae00;
+		color: #d456bf;
 		font-weight: bold;
 		padding: 0 0 20px;
 	}
@@ -562,9 +562,9 @@ body{
 		transition: 0.5s;
 		background: url("../images/r_logo.png") center no-repeat;
 	}
-	.home:hover{
+	/* .home:hover{
 		background: url("../images/r_logo_hover.png") center no-repeat;
-	}
+	} */
 	/*第二區*/
 	.zone02_center img{
 		display: none;
@@ -647,7 +647,7 @@ body{
 	}
 	.z03_title{
 		font-size: 30px;
-		color: #bf0000;
+		color: #d456bf;
 		font-weight: bold;
 		text-align: center;
 		padding: 0 0 20px;
@@ -753,7 +753,7 @@ body{
 	}
 	.z01_title{
 		font-size: 30px; 
-		color: #ffae00; 
+		color: #d456bf;
 		font-weight: bold;  
 		padding: 10px 0;
 		text-align: center;
@@ -859,7 +859,7 @@ body{
 	}
 	.z03_title{
 		font-size: 30px; 
-		color: #bf0000; 
+		color: #d456bf; 
 		font-weight: bold;  
 		padding: 10px 0;
 		text-align: center;
