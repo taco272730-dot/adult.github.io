@@ -177,8 +177,8 @@ body{
 	.z01_servicebtn{
 		background: url(../images/service.png) center no-repeat;
 	}
-	.z01_servicebtn:hover{
-		background: url(../images/service_hover.png) center no-repeat;
+	.z01_registerbtn:hover{
+		background: url(../images/register_hover.png) center no-repeat;
 	}
 	.z01_loginafter{
 		display: none;
@@ -507,12 +507,6 @@ body{
 	}
 	.z01_registerbtn:hover{
 		background: url(../images/register_hover.png) center no-repeat;
-	}
-	.z01_servicebtn{
-		background: url(../images/service.png) center no-repeat;
-	}
-	.z01_servicebtn:hover{
-		background: url(../images/service_hover.png) center no-repeat;
 	}
 	.z01_loginafter{
 		display: none;
@@ -846,9 +840,7 @@ body{
 	.textcontent_1_z2{
 		padding: 0 0 30px;
 	}
-	.force_none{
-		display: none;
-	}
+	
 	/*第三區*/
 	.zone03{
 		width: 100%;
