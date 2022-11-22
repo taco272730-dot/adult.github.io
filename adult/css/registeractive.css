@@ -161,6 +161,7 @@ body{
 		margin-bottom: 12px;
 		float: left;
 		transition: 0.7s;
+		animation: flush 1s infinite;
 	}
 	.z01_loginbtn{
 		background: url(../images/loginbtn.png) center no-repeat;
@@ -177,8 +178,8 @@ body{
 	.z01_servicebtn{
 		background: url(../images/service.png) center no-repeat;
 	}
-	.z01_registerbtn:hover{
-		background: url(../images/register_hover.png) center no-repeat;
+	.z01_servicebtn:hover{
+		background: url(../images/service_hover.png) center no-repeat;
 	}
 	.z01_loginafter{
 		display: none;
@@ -295,6 +296,7 @@ body{
 	.zone03{
 		width: 100%;
 		background: url("../images/z03_bg.jpg") top no-repeat;
+		padding-bottom: 30px;
 	}
 	.zone03_center{
 		position: relative;
@@ -326,7 +328,26 @@ body{
 		display: inline-flex;
 		min-width: 800px;
 	}
-
+	.fixed_btn_zone{
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		background: linear-gradient(180deg,#242424,black);
+		padding: 20px 0;
+		display: flex;
+		justify-content: center;
+	}
+	.fixedBtn_basic{
+		display: block;
+		text-decoration: none;
+		color: white;
+		padding: 10px 20px;
+		border-radius: 10px;
+		margin: 0 10px;
+		background: linear-gradient(180deg,#b74cd1,#801498);
+		animation: flush 1s infinite;
+	}
 }
 /*------------------------------------------------------*/
 
@@ -495,6 +516,7 @@ body{
 		margin-bottom: 12px;
 		float: left;
 		transition: 0.7s;
+		animation: flush 1s infinite;
 	}
 	.z01_loginbtn{
 		background: url(../images/loginbtn.png) center no-repeat;
@@ -507,6 +529,12 @@ body{
 	}
 	.z01_registerbtn:hover{
 		background: url(../images/register_hover.png) center no-repeat;
+	}
+	.z01_servicebtn{
+		background: url(../images/service.png) center no-repeat;
+	}
+	.z01_servicebtn:hover{
+		background: url(../images/service_hover.png) center no-repeat;
 	}
 	.z01_loginafter{
 		display: none;
@@ -629,6 +657,7 @@ body{
 	.zone03{
 		width: 100%;
 		background: url("../images/z03_bg.jpg") top no-repeat;
+		padding-bottom: 30px;
 	}
 	.zone03_center{
 		position: relative;
@@ -659,7 +688,26 @@ body{
 		float: left;
 		display: inline-flex;
 	}
-
+	.fixed_btn_zone{
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		background: linear-gradient(180deg,#242424,black);
+		padding: 20px 0;
+		display: flex;
+		justify-content: center;
+	}
+	.fixedBtn_basic{
+		display: block;
+		text-decoration: none;
+		color: white;
+		padding: 10px 20px;
+		border-radius: 10px;
+		margin: 0 10px;
+		background: linear-gradient(180deg,#b74cd1,#801498);
+		animation: flush 1s infinite;
+	}
 
 }
 
@@ -840,7 +888,9 @@ body{
 	.textcontent_1_z2{
 		padding: 0 0 30px;
 	}
-	
+	.force_none{
+		display: none;
+	}
 	/*第三區*/
 	.zone03{
 		width: 100%;
@@ -871,7 +921,33 @@ body{
 		float: left;
 		display: inline-flex;
 	}
-
+	.z01_btn_basic{
+		animation: flush 1s infinite;
+		border-radius: 16px;
+	}
+	.fixed_btn_zone{
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		background: linear-gradient(180deg,#242424,black);
+		padding: 20px 0;
+		display: flex;
+		justify-content: center;
+		font-size: 14px;
+	}
+	.fixedBtn_basic{
+		width: 33.33%;
+		display: block;
+		text-decoration: none;
+		color: white;
+		padding: 10px 0;
+		border-radius: 10px;
+		text-align: center;
+		margin: 0 10px;
+		background: linear-gradient(180deg,#b74cd1,#801498);
+		animation: flush 1s infinite;
+	}
 }
 
 
